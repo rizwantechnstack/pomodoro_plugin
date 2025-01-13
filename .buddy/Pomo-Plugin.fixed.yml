@@ -5,3 +5,17 @@
     - "refs/heads/main"
   fail_on_prepare_env_warning: true
   resources: "NANO"
+  targets:
+  - type: "FTP"
+    secure: true
+    id: "pomopipeline"
+    host: "ftp.technstack.com"
+    auth:
+      username: "pomopipeline@rei.technstack.com"
+      password: "secure!+MjU1ND7hfWsE1OAny0Bew==.ctfDBFeyMeDrGRKYL4Dqxg=="
+  actions:
+  - action: "Transfer files"
+    type: "TRANSFER"
+    local_path: "/"
+    targets:
+    - "pomopipeline"
