@@ -27,6 +27,7 @@ function loadTasks() {
     renderTasks(tasks);
 }
 
+
 // Save tasks to localStorage
 function saveTasks(tasks) {
     localStorage.setItem('tasks', JSON.stringify(tasks));
