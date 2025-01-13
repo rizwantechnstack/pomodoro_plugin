@@ -14,7 +14,6 @@
         </div>
 
        
-       
         <div class="groupdiv">
             <div class="tabs">
                 <button  id="red1" class="tab active" data-bg="#BA4949" data-time="25:00">Pomodoro</button>
