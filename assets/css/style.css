@@ -258,11 +258,11 @@ th {
     width: 100%;
     font-size: 18px;
     text-align: center;
-
     display: flex;
     justify-content: space-around;
-border-top: 1px solid white;
+    border-top: 1px solid white;
   }
+
 
 
 
@@ -393,14 +393,5 @@ border-top: 1px solid white;
     background: #218838;
 }
 
-
-
-
-/*
-
-Additional CSS
-
-
-*/
 
 
